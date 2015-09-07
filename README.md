@@ -1,5 +1,5 @@
 # fakes3-docker
-Minimal (27.82 Mb) fakes3 Docker image based on Alpine Linux.
+Minimal (22.78 Mb) fakes3 Docker image based on Alpine Linux.
 
 Exposes port 80 and uses `/srv/fakes3` as a volume for persistance. Uses `/usr/bin/fakes3` as entrypoint with the default flags `-r /srv/fakes3 -p 80`. You can override those flags by providing them when starting the container:
 

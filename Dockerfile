@@ -2,8 +2,7 @@ FROM alpine:edge
 
 ENV FAKES3_VERSION 0.2.1
 
-RUN apk upgrade --update && \
-    apk add --update \
+RUN apk add --update \
         ruby \
         ruby-rdoc \
         ruby-irb \
